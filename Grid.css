@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+#grid-container {
+    display: grid;
+    margin-top: 20px;
+}
+
+.grid-cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
